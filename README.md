@@ -1,3 +1,8 @@
+## Installation
+```bash
+/home/qin/Downloads/BashFiles/config_voxblox.sh
+```
+
 # Voxblox
 
 [![Build Test](https://github.com/ethz-asl/voxblox/actions/workflows/build_test.yml/badge.svg)](https://github.com/ethz-asl/voxblox/actions/workflows/build_test.yml)
