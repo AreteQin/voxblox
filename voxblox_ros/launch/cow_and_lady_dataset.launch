@@ -1,7 +1,10 @@
 <launch>
   <arg name="play_bag" default="true" />
-  <arg name="bag_file" default="/path/to/data.bag"/>
+  <arg name="bag_file" default="/home/qin/Downloads/voxblox_cow_and_lady.bag"/>
   <arg name="voxel_size" default="0.05"/>
+
+  <node pkg = "tf2_ros" type = "static_transform_publisher" name = "tf2_map_world" args = "0 0 0 0 0 0 map world" />
+
 
   <!-- Download the dataset here: https://projects.asl.ethz.ch/datasets/doku.php?id=iros2017 -->
 
